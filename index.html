@@ -8,9 +8,15 @@
     <title>SIGN-UP-FORM</title>
 </head>
 <body>
+    
+    <script src="script.js"></script>
+    
+   
     <div id="left-side">
         <img src="images/rog.jpg" alt="rog" id="rog" />
     </div>
+    
+    
     <div id="right-side">
         <div id="header">
             <div id="text-header">
@@ -22,15 +28,19 @@
             </p>
             </div>      
         </div>
+    
+    
         <div id="main">
             <div id="text-main">
                 <b>Let's do this.</b>
             </div>
             
             <br><br><br>
+        
             <div >
-            <form action="#" id="form">
-                <div class="components">
+                <form action="#" id="form">
+                
+                    <div class="components">
                     <div>
                         <label for="first-name" class="first-name">FIRST NAME</label>
                         <input type="text" required>
@@ -55,21 +65,24 @@
                 <div class="components">
                     <div> 
                         <label for="password" class="password">PASSWORD</label>
-                        <input type="password" placeholder="********" minlength="8" required>
+                        <input type="password" placeholder="********" minlength="8" required id="password">
                     </div>
                     <div>
                         <label for="comf-password" class="comf-password">CONFIRM PASSWORD</label>
-                        <input type="password" placeholder="********" minlength="8" required>
+                        <input type="password" placeholder="********" minlength="8" required id="conf-password">
                     </div>
                 </div>
             </div>
         </div>
+        
+        
         <div id="footer">
             <div id="button-container">
                 <button type="submit" id="button">Create Account</button>
             </div>
         </form>
-            <br>
+        
+        <br>
             <b class="text-footer">Already have an account ? LogIN</b>
         </div>
     </div>
