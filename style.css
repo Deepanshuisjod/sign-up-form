@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lora:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tangerine&display=swap');
+body{
+    display: flex;
+    margin: 0;
+}
+#left-side{
+    width: 50%;
+    height: 1000px;
+    background-color: black;
+}
+#rog{
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 300px;
+}
+#right-side{
+    display: block;
+    width: 70%;
+    height: 1000px;
+}
+#header{
+    display: block;
+    width: 100%;
+    height: 220px;
+    background-image: linear-gradient(90deg,#868F96,#596164);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+}
+#text-header{
+    padding-top: 10px;
+}
+#main{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(238, 238, 237);
+    height: 550px;
+}
+#text-main{
+    font-size: 30px;
+    padding: 20px;
+}
+#form{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lora', serif;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.components{
+    display: flex;
+    justify-content: space-between;
+}
+label,input{
+    display: block;
+}
+#button-container{
+    padding: 40px;
+}
+#button{
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    color: azure;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text-footer{
+    padding: 40px;
+}
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
